@@ -36,9 +36,6 @@
       </div>
     </header>
     <body>
-    <%# if user_signed_in? %>
-      <%# "こんにちは、" %><%# link_to "#{current_user.name}さん", "/users/#{current_user.id}" %>   
-    <%# end %>
     <%= yield %>
     <footer class="footer">
       <p class="copyright">Copyright © PROTO SPACE All rights reserved.</p>
